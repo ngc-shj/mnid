@@ -1,0 +1,60 @@
+Installation
+============
+
+This program requires
+
+o GTK+ 2.4.0 or higher
+o GLib 2.4.0 or higher
+o libxml2 2.6.0 or higher
+o OpenSSL 0.9.1c or higher
+o gpgme 0.4.5 or higher (option)
+
+to be compiled.
+
+This program is developed on Vine Linux 3.1
+(Linux 2.4.x + glibc 2.3.3), so it is possible not to work correctly
+on the other environment.
+
+It is confirmed to work on the following environments:
+
+Linux
+
+o Vine Linux 3.1
+
+BSD
+
+Hmm...
+
+Other commercial Unix
+
+o Mac OS X 10.3 + X11 for Mac OS X + Todaifink
+
+Others
+
+Hmm...
+
+Build it
+========
+
+Please make sure that gtk-devel, glib-devel, libxml2-devel, openssl-devel
+and gpgme-devel (or similar) packages are installed before the compilation.
+
+To compile and install, just type:
+
+% ./configure
+% make
+% su
+Password: [Enter password]
+# make install
+
+Options for configure script
+============================
+
+Please refer to ./configure --help .
+
+
+If the installation of Mnid failed, check whether all the required
+libraries are correctly installed. If it still failed, please send bug
+report to:
+
+NOGUCHI Shoji <noguchi@org3.net>

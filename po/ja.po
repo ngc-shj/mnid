@@ -1,0 +1,609 @@
+# Japanese translation of Mnid
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# NOGUCHI Shoji <noguchi@org3.net>, 2005
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mnid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-12 03:53+0900\n"
+"PO-Revision-Date: 2005-03-18\n"
+"Last-Translator: NOGUCHI Shoji <noguchi@org3.net>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/about.c:80
+msgid "About Mnid"
+msgstr "Mnid について"
+
+#. version
+#: src/about.c:108
+msgid "Mnid version "
+msgstr "Mnid バージョン "
+
+#: src/about.c:150
+msgid ""
+"I have copied a part of code from other programs. I extend a special thank "
+"you to the following programs.\n"
+"\n"
+msgstr ""
+"当プログラムを作成するにあたり、他のプログラムのコードを一部流用しています。"
+"以下にあげるプログラムの作者および関連する方々に深く感謝いたします。\n"
+"\n"
+
+#: src/about.c:153
+msgid ""
+"Sylpheed !\n"
+"  Copyright (C) 1999-2005 Hiroyuki Yamamoto\n"
+"  Copyright (C) 2001 Werner Koch (dd9jn)\n"
+"\n"
+msgstr ""
+"Sylpheed !\n"
+"  Copyright (C) 1999-2005 Hiroyuki Yamamoto\n"
+"  Copyright (C) 2001 Werner Koch (dd9jn)\n"
+"\n"
+
+#: src/about.c:162
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2, or (at your option) any later "
+"version.\n"
+"\n"
+msgstr ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2, or (at your option) any later "
+"version.\n"
+"\n"
+
+#: src/about.c:168
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details.\n"
+"\n"
+msgstr ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details.\n"
+"\n"
+
+#: src/about.c:174
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place - Suite 330, Boston, MA 02111-1307, USA."
+msgstr ""
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place - Suite 330, Boston, MA 02111-1307, USA."
+
+#: src/blowfish_crypt.c:119 src/blowfish_input_key.c:336
+#: src/blowfish_key.c:197
+msgid "Incorrect key"
+msgstr "鍵が違います。"
+
+#: src/blowfish_input_key.c:105
+msgid "Setting Key"
+msgstr "鍵の設定"
+
+#: src/blowfish_input_key.c:125
+msgid ""
+"This Key is used for the protection of ID information. You are asked to "
+"input the Key when you start Mnid."
+msgstr ""
+"この鍵はID情報の保護のために使用されます。Mnidを起動するときに鍵の入力が求め"
+"られます。"
+
+#. current key entry
+#: src/blowfish_input_key.c:149
+msgid "Current key"
+msgstr "現在の鍵"
+
+#. new key entry
+#: src/blowfish_input_key.c:166
+msgid "New key"
+msgstr "新しい鍵を入力してください"
+
+#. max length of key
+#: src/blowfish_input_key.c:183
+msgid "Max length of key is 56 chars."
+msgstr "鍵の最大長は56文字です。"
+
+#. new key re-entry
+#: src/blowfish_input_key.c:193
+msgid "Re-enter new key"
+msgstr "鍵を再入力してください"
+
+#. key quality
+#: src/blowfish_input_key.c:210
+msgid "Key quality"
+msgstr "鍵の品質"
+
+#: src/blowfish_key.c:84
+msgid "Input Blowfish Key"
+msgstr "鍵(Blowfish)の入力"
+
+#: src/blowfish_key.c:109
+msgid "Key"
+msgstr "鍵"
+
+#. dialog
+#: src/gnupg_pass.c:79
+msgid "Passphrase"
+msgstr "パスフレーズ"
+
+#: src/gnupg_pass.c:183
+msgid "[no user id]"
+msgstr "[ユーザIDなし]"
+
+#: src/gnupg_pass.c:191
+#, c-format
+msgid ""
+"%sPlease enter the passphrase for:\n"
+"\n"
+"  %.*s  \n"
+"(%.*s)\n"
+msgstr ""
+"%sパスフレーズを入力してください:\n"
+"\n"
+"  %.*s  \n"
+"(%.*s)\n"
+
+#: src/gnupg_pass.c:195
+msgid ""
+"Bad passphrase! Try again...\n"
+"\n"
+msgstr ""
+"不正なパスフレーズです! 再入力してください...\n"
+"\n"
+
+#. dialog
+#: src/gnupg_select_key.c:130
+msgid "Select secret key"
+msgstr "秘密鍵の選択"
+
+#: src/gnupg_select_key.c:154
+msgid ""
+"Please select the secret key. A public key for this secret key is used for "
+"the protection of ID information. You are asked to input the passphrase of "
+"this secret key when you start Mnid."
+msgstr ""
+"秘密鍵を選択してください。この秘密鍵に対する公開鍵はID情報の保護のために使用"
+"されます。Mnidを起動するときに秘密鍵のパスフレーズを入力するよう求められま"
+"す。"
+
+#: src/gnupg_select_key.c:206
+msgid "Size"
+msgstr "サイズ"
+
+#: src/gnupg_select_key.c:207
+msgid "Key ID"
+msgstr "鍵ID"
+
+#: src/gnupg_select_key.c:208 src/mainwindow.c:371
+msgid "Name"
+msgstr "名前"
+
+#: src/gnupg_select_key.c:209
+msgid "Address"
+msgstr "アドレス"
+
+#: src/gnupg_select_key.c:210
+msgid "Val"
+msgstr "正当性"
+
+#: src/id.c:101
+msgid ""
+"Decryption failed.\n"
+"Exit."
+msgstr ""
+"復号化に失敗しました。\n"
+"処理を終了します。"
+
+#: src/id.c:272
+msgid ""
+"Encryption failed.\n"
+"Save configuration as plain text!"
+msgstr ""
+"暗号化に失敗しました。\n"
+"設定は平文として保存します!"
+
+#: src/main.c:78
+#, c-format
+msgid ""
+"File '%s' already exists.\n"
+"Can't create folder."
+msgstr ""
+"ファイル '%s' がすでに存在します。\n"
+"フォルダを作成できません。"
+
+#: src/mainwindow.c:129
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: src/mainwindow.c:130
+msgid "_Save"
+msgstr "保存(_S)"
+
+#: src/mainwindow.c:131
+msgid "Save ID information"
+msgstr "ID情報の保存"
+
+#: src/mainwindow.c:132
+msgid "E_xit"
+msgstr "終了(_E)"
+
+#: src/mainwindow.c:135
+msgid "_ID Info"
+msgstr "ID情報(_I)"
+
+#: src/mainwindow.c:136
+msgid "_New"
+msgstr "新規(_N)"
+
+#: src/mainwindow.c:137
+msgid "New ID information"
+msgstr "ID情報の新規作成"
+
+#. Edit button
+#: src/mainwindow.c:138 src/mainwindow.c:449
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: src/mainwindow.c:139 src/prefs_id.c:293
+msgid "Edit ID information"
+msgstr "ID情報の編集"
+
+#: src/mainwindow.c:140
+msgid "_Copy"
+msgstr "コピー(_C)"
+
+#: src/mainwindow.c:141 src/prefs_id.c:296
+msgid "Copy ID information"
+msgstr "ID情報のコピー"
+
+#: src/mainwindow.c:142
+msgid "_Delete"
+msgstr "削除(_D)"
+
+#: src/mainwindow.c:143
+msgid "Delete ID information"
+msgstr "ID情報の削除"
+
+#: src/mainwindow.c:144
+msgid "Copy _User ID"
+msgstr "ユーザIDをコピー(_U)"
+
+#: src/mainwindow.c:145
+msgid "Copy User ID"
+msgstr "ユーザIDをコピー"
+
+#: src/mainwindow.c:146
+msgid "Copy _Password"
+msgstr "パスワードをコピー(_P)"
+
+#: src/mainwindow.c:147
+msgid "Copy Password"
+msgstr "パスワードをコピー"
+
+#: src/mainwindow.c:148
+msgid "_Jump To URI"
+msgstr "URIへ移動(_J)"
+
+#: src/mainwindow.c:149
+msgid "Jump To URI"
+msgstr "URIへ移動"
+
+#: src/mainwindow.c:152
+msgid "_View"
+msgstr "表示(_V)"
+
+#: src/mainwindow.c:153
+msgid "Toolbar"
+msgstr "ツールバー"
+
+#: src/mainwindow.c:154 src/mainwindow.c:180
+msgid "Statusbar"
+msgstr "ステータスバー"
+
+#: src/mainwindow.c:156
+msgid "Confi_guration"
+msgstr "設定(_G)"
+
+#: src/mainwindow.c:158
+msgid "_Common preferences..."
+msgstr "全般の設定(_C)"
+
+#: src/mainwindow.c:161
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: src/mainwindow.c:162
+msgid "_About"
+msgstr "このプログラムについて(_A)"
+
+#: src/mainwindow.c:168
+msgid "_Icons"
+msgstr "アイコン(_I)"
+
+#: src/mainwindow.c:170
+msgid "Icons _and Text"
+msgstr "アイコンと文字(_A)"
+
+#: src/mainwindow.c:172
+msgid "_Text"
+msgstr "文字(_T)"
+
+#: src/mainwindow.c:174
+msgid "_None"
+msgstr "非表示(_N)"
+
+#: src/mainwindow.c:372
+msgid "User ID"
+msgstr "ユーザID"
+
+#: src/mainwindow.c:668 src/mainwindow.c:707 src/mainwindow.c:748
+msgid "Select ID infomation."
+msgstr "ID情報を選択してください。"
+
+#: src/mainwindow.c:757
+msgid ""
+"Delete ID:\n"
+"Do you really want to delete this ID?"
+msgstr ""
+"ID情報の削除:\n"
+"ID情報を削除してもよろしいですか？"
+
+#: src/mainwindow.c:1170
+msgid "ID infomation have been updated. Save your change?"
+msgstr "ID情報が変更されています。変更を保存しますか？"
+
+#: src/mainwindow.c:1213
+msgid "Save ID information."
+msgstr "ID情報を保存しました。"
+
+#: src/mainwindow.c:1218
+msgid "ID information have not been updated."
+msgstr "ID情報は変更されていません。"
+
+#. dialog
+#: src/pass_list.c:113
+msgid "History"
+msgstr "履歴"
+
+#: src/pass_list.c:170
+msgid "Update Date"
+msgstr "更新日時"
+
+#. pass
+#: src/pass_list.c:193
+msgid "Password"
+msgstr "パスワード"
+
+#: src/prefs_common.c:181
+msgid "Common Preferences"
+msgstr "全般の設定"
+
+#: src/prefs_common.c:193
+msgid "Security"
+msgstr "セキュリティ"
+
+#: src/prefs_common.c:203
+msgid "Other"
+msgstr "その他"
+
+#: src/prefs_common.c:293
+msgid "Bear blowfish key."
+msgstr "鍵(Blowfish)が入力されていません。"
+
+#: src/prefs_common.c:313
+msgid "Select secret key."
+msgstr "秘密鍵を選択してください。"
+
+#: src/prefs_common.c:340
+msgid ""
+"Configuration of encryption set active.\n"
+"Save ID information using the new settings now. OK?"
+msgstr ""
+"ID情報の暗号化設定が ** 有効 ** となりました。\n"
+"今すぐ、新しい暗号化設定でID情報を保存する必要があります。よろしいですか？"
+
+#: src/prefs_common.c:343
+msgid ""
+"Configuration of encryption set inactive.\n"
+"Save ID information using plain text now. OK?"
+msgstr ""
+"ID情報の暗号化設定が ** 無効 ** となりました。\n"
+"今すぐ、平文でID情報を保存する必要があります。よろしいですか？"
+
+#. frame
+#: src/prefs_common.c:410
+msgid "Protection of Personal Infomation"
+msgstr "個人情報保護"
+
+#: src/prefs_common.c:426
+msgid "Encrypt when saving personal infomation"
+msgstr "個人情報の保存時に暗号化を行う"
+
+#. for GnuPG
+#: src/prefs_common.c:462
+msgid "Select secret key..."
+msgstr "秘密鍵の選択..."
+
+#. for Blowfish
+#: src/prefs_common.c:470
+msgid "Setting Key..."
+msgstr "鍵の設定..."
+
+#: src/prefs_common.c:482 src/prefs_common.c:590
+msgid "You need the passphrase of this secret key on next startup."
+msgstr "次回起動時に秘密鍵のパスフレーズが必要となります。"
+
+#: src/prefs_common.c:518
+msgid "Use Blowfish"
+msgstr "Blowfishを使用する"
+
+#: src/prefs_common.c:524
+msgid "Use GnuPG"
+msgstr "GnuPGを使用する"
+
+#: src/prefs_common.c:576
+msgid "You need a key on next startup."
+msgstr "次回起動時に鍵が必要となります。"
+
+#: src/prefs_common.c:649
+#, c-format
+msgid "External command (%s will be replaced with file name / URI)"
+msgstr "外部コマンド (%s はファイル名・URIに置き換えられます)"
+
+#: src/prefs_common.c:663
+msgid "Web browser"
+msgstr "Webブラウザ"
+
+#: src/prefs_id.c:183
+msgid "_Name"
+msgstr "名前(_N)"
+
+#: src/prefs_id.c:191
+msgid "User _ID"
+msgstr "ユーザID(_I)"
+
+#. gtk_editable_set_editable(GTK_EDITABLE(pass_entry), FALSE);
+#: src/prefs_id.c:200 src/prefs_pass.c:171
+msgid "_Password"
+msgstr "パスワード(_P)"
+
+#: src/prefs_id.c:202
+msgid "_Generate..."
+msgstr "生成(_G)..."
+
+#: src/prefs_id.c:210
+msgid "_History..."
+msgstr "履歴(_H)..."
+
+#: src/prefs_id.c:235
+msgid "_URI"
+msgstr "URI(_U)"
+
+#: src/prefs_id.c:262
+msgid "_Remarks"
+msgstr "備考(_R)"
+
+#: src/prefs_id.c:290
+msgid "New ID infomation"
+msgstr "ID情報の新規作成"
+
+#: src/prefs_id.c:345
+#, c-format
+msgid "Updated %s ago"
+msgstr "最終更新から %s経過しています"
+
+#: src/prefs_id.c:384
+msgid "Name is not specified."
+msgstr "名前が指定されていません。"
+
+#: src/prefs_id.c:389
+msgid "User ID is not specified."
+msgstr "ユーザIDが指定されていません。"
+
+#. dialog
+#: src/prefs_pass.c:148
+msgid "Password Generation"
+msgstr "パスワード生成"
+
+#. generate
+#: src/prefs_pass.c:181
+msgid "_Generate"
+msgstr "生成(_G)"
+
+#. frame
+#: src/prefs_pass.c:186
+msgid "Auto Generation"
+msgstr "自動生成"
+
+#. use chars
+#: src/prefs_pass.c:204
+msgid "Using Characters"
+msgstr "使用する文字"
+
+#: src/prefs_pass.c:223
+msgid "_Upper Case"
+msgstr "英大文字(_U)"
+
+#: src/prefs_pass.c:226
+msgid "_Lower Case"
+msgstr "英小文字(_L)"
+
+#: src/prefs_pass.c:229
+msgid "_Numeric"
+msgstr "数字(_N)"
+
+#: src/prefs_pass.c:232
+msgid "Sy_mbol"
+msgstr "記号(_M)"
+
+#: src/prefs_pass.c:247
+msgid "_Avoid ambiguous"
+msgstr "紛らわしい文字を避ける(_A)"
+
+#: src/prefs_pass.c:272
+msgid "_Digit number"
+msgstr "桁数(_D)"
+
+#. password quality
+#: src/prefs_pass.c:282
+msgid "Password quality"
+msgstr "パスワードの品質"
+
+#: src/prefs_pass.c:369
+msgid "Password is not specified."
+msgstr "パスワードが指定されていません。"
+
+#: src/prefs_pass.c:508
+msgid "Select use characters."
+msgstr "使用文字を選択してください。"
+
+#: src/utils.c:346
+msgid "0 seconds"
+msgstr "0秒"
+
+#: src/utils.c:359
+#, c-format
+msgid "%d year(s)"
+msgstr "%d年"
+
+#: src/utils.c:369
+#, c-format
+msgid "%d month(s)"
+msgstr "%dヶ月"
+
+#: src/utils.c:371
+#, c-format
+msgid "%d week(s)"
+msgstr "%d週間"
+
+#: src/utils.c:373
+#, c-format
+msgid "%d day(s)"
+msgstr "%d日"
+
+#: src/utils.c:375
+#, c-format
+msgid "%d hour(s)"
+msgstr "%d時間"
+
+#: src/utils.c:377
+#, c-format
+msgid "%d minute(s)"
+msgstr "%d分"
+
+#: src/utils.c:379
+#, c-format
+msgid "%d second(s)"
+msgstr "%d秒"

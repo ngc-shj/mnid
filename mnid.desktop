@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Mnid
+Name[ja]=Mnid
+Comment=ID/Password Manager
+Comment[ja]=ID/パスワード情報一括管理ツール
+Exec=mnid
+Icon=mnid.png
+Terminal=0
+Type=Application
+Categories=Application;Utility;

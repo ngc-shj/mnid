@@ -1,0 +1,568 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-12 03:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/about.c:80
+msgid "About Mnid"
+msgstr ""
+
+#. version
+#: src/about.c:108
+msgid "Mnid version "
+msgstr ""
+
+#: src/about.c:150
+msgid ""
+"I have copied a part of code from other programs. I extend a special thank "
+"you to the following programs.\n"
+"\n"
+msgstr ""
+
+#: src/about.c:153
+msgid ""
+"Sylpheed !\n"
+"  Copyright (C) 1999-2005 Hiroyuki Yamamoto\n"
+"  Copyright (C) 2001 Werner Koch (dd9jn)\n"
+"\n"
+msgstr ""
+
+#: src/about.c:162
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2, or (at your option) any later "
+"version.\n"
+"\n"
+msgstr ""
+
+#: src/about.c:168
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details.\n"
+"\n"
+msgstr ""
+
+#: src/about.c:174
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place - Suite 330, Boston, MA 02111-1307, USA."
+msgstr ""
+
+#: src/blowfish_crypt.c:119 src/blowfish_input_key.c:336
+#: src/blowfish_key.c:197
+msgid "Incorrect key"
+msgstr ""
+
+#: src/blowfish_input_key.c:105
+msgid "Setting Key"
+msgstr ""
+
+#: src/blowfish_input_key.c:125
+msgid ""
+"This Key is used for the protection of ID information. You are asked to "
+"input the Key when you start Mnid."
+msgstr ""
+
+#. current key entry
+#: src/blowfish_input_key.c:149
+msgid "Current key"
+msgstr ""
+
+#. new key entry
+#: src/blowfish_input_key.c:166
+msgid "New key"
+msgstr ""
+
+#. max length of key
+#: src/blowfish_input_key.c:183
+msgid "Max length of key is 56 chars."
+msgstr ""
+
+#. new key re-entry
+#: src/blowfish_input_key.c:193
+msgid "Re-enter new key"
+msgstr ""
+
+#. key quality
+#: src/blowfish_input_key.c:210
+msgid "Key quality"
+msgstr ""
+
+#: src/blowfish_key.c:84
+msgid "Input Blowfish Key"
+msgstr ""
+
+#: src/blowfish_key.c:109
+msgid "Key"
+msgstr ""
+
+#. dialog
+#: src/gnupg_pass.c:79
+msgid "Passphrase"
+msgstr ""
+
+#: src/gnupg_pass.c:183
+msgid "[no user id]"
+msgstr ""
+
+#: src/gnupg_pass.c:191
+#, c-format
+msgid ""
+"%sPlease enter the passphrase for:\n"
+"\n"
+"  %.*s  \n"
+"(%.*s)\n"
+msgstr ""
+
+#: src/gnupg_pass.c:195
+msgid ""
+"Bad passphrase! Try again...\n"
+"\n"
+msgstr ""
+
+#. dialog
+#: src/gnupg_select_key.c:130
+msgid "Select secret key"
+msgstr ""
+
+#: src/gnupg_select_key.c:154
+msgid ""
+"Please select the secret key. A public key for this secret key is used for "
+"the protection of ID information. You are asked to input the passphrase of "
+"this secret key when you start Mnid."
+msgstr ""
+
+#: src/gnupg_select_key.c:206
+msgid "Size"
+msgstr ""
+
+#: src/gnupg_select_key.c:207
+msgid "Key ID"
+msgstr ""
+
+#: src/gnupg_select_key.c:208 src/mainwindow.c:371
+msgid "Name"
+msgstr ""
+
+#: src/gnupg_select_key.c:209
+msgid "Address"
+msgstr ""
+
+#: src/gnupg_select_key.c:210
+msgid "Val"
+msgstr ""
+
+#: src/id.c:101
+msgid ""
+"Decryption failed.\n"
+"Exit."
+msgstr ""
+
+#: src/id.c:272
+msgid ""
+"Encryption failed.\n"
+"Save configuration as plain text!"
+msgstr ""
+
+#: src/main.c:78
+#, c-format
+msgid ""
+"File '%s' already exists.\n"
+"Can't create folder."
+msgstr ""
+
+#: src/mainwindow.c:129
+msgid "_File"
+msgstr ""
+
+#: src/mainwindow.c:130
+msgid "_Save"
+msgstr ""
+
+#: src/mainwindow.c:131
+msgid "Save ID information"
+msgstr ""
+
+#: src/mainwindow.c:132
+msgid "E_xit"
+msgstr ""
+
+#: src/mainwindow.c:135
+msgid "_ID Info"
+msgstr ""
+
+#: src/mainwindow.c:136
+msgid "_New"
+msgstr ""
+
+#: src/mainwindow.c:137
+msgid "New ID information"
+msgstr ""
+
+#. Edit button
+#: src/mainwindow.c:138 src/mainwindow.c:449
+msgid "_Edit"
+msgstr ""
+
+#: src/mainwindow.c:139 src/prefs_id.c:293
+msgid "Edit ID information"
+msgstr ""
+
+#: src/mainwindow.c:140
+msgid "_Copy"
+msgstr ""
+
+#: src/mainwindow.c:141 src/prefs_id.c:296
+msgid "Copy ID information"
+msgstr ""
+
+#: src/mainwindow.c:142
+msgid "_Delete"
+msgstr ""
+
+#: src/mainwindow.c:143
+msgid "Delete ID information"
+msgstr ""
+
+#: src/mainwindow.c:144
+msgid "Copy _User ID"
+msgstr ""
+
+#: src/mainwindow.c:145
+msgid "Copy User ID"
+msgstr ""
+
+#: src/mainwindow.c:146
+msgid "Copy _Password"
+msgstr ""
+
+#: src/mainwindow.c:147
+msgid "Copy Password"
+msgstr ""
+
+#: src/mainwindow.c:148
+msgid "_Jump To URI"
+msgstr ""
+
+#: src/mainwindow.c:149
+msgid "Jump To URI"
+msgstr ""
+
+#: src/mainwindow.c:152
+msgid "_View"
+msgstr ""
+
+#: src/mainwindow.c:153
+msgid "Toolbar"
+msgstr ""
+
+#: src/mainwindow.c:154 src/mainwindow.c:180
+msgid "Statusbar"
+msgstr ""
+
+#: src/mainwindow.c:156
+msgid "Confi_guration"
+msgstr ""
+
+#: src/mainwindow.c:158
+msgid "_Common preferences..."
+msgstr ""
+
+#: src/mainwindow.c:161
+msgid "_Help"
+msgstr ""
+
+#: src/mainwindow.c:162
+msgid "_About"
+msgstr ""
+
+#: src/mainwindow.c:168
+msgid "_Icons"
+msgstr ""
+
+#: src/mainwindow.c:170
+msgid "Icons _and Text"
+msgstr ""
+
+#: src/mainwindow.c:172
+msgid "_Text"
+msgstr ""
+
+#: src/mainwindow.c:174
+msgid "_None"
+msgstr ""
+
+#: src/mainwindow.c:372
+msgid "User ID"
+msgstr ""
+
+#: src/mainwindow.c:668 src/mainwindow.c:707 src/mainwindow.c:748
+msgid "Select ID infomation."
+msgstr ""
+
+#: src/mainwindow.c:757
+msgid ""
+"Delete ID:\n"
+"Do you really want to delete this ID?"
+msgstr ""
+
+#: src/mainwindow.c:1170
+msgid "ID infomation have been updated. Save your change?"
+msgstr ""
+
+#: src/mainwindow.c:1213
+msgid "Save ID information."
+msgstr ""
+
+#: src/mainwindow.c:1218
+msgid "ID information have not been updated."
+msgstr ""
+
+#. dialog
+#: src/pass_list.c:113
+msgid "History"
+msgstr ""
+
+#: src/pass_list.c:170
+msgid "Update Date"
+msgstr ""
+
+#. pass
+#: src/pass_list.c:193
+msgid "Password"
+msgstr ""
+
+#: src/prefs_common.c:181
+msgid "Common Preferences"
+msgstr ""
+
+#: src/prefs_common.c:193
+msgid "Security"
+msgstr ""
+
+#: src/prefs_common.c:203
+msgid "Other"
+msgstr ""
+
+#: src/prefs_common.c:293
+msgid "Bear blowfish key."
+msgstr ""
+
+#: src/prefs_common.c:313
+msgid "Select secret key."
+msgstr ""
+
+#: src/prefs_common.c:340
+msgid ""
+"Configuration of encryption set active.\n"
+"Save ID information using the new settings now. OK?"
+msgstr ""
+
+#: src/prefs_common.c:343
+msgid ""
+"Configuration of encryption set inactive.\n"
+"Save ID information using plain text now. OK?"
+msgstr ""
+
+#. frame
+#: src/prefs_common.c:410
+msgid "Protection of Personal Infomation"
+msgstr ""
+
+#: src/prefs_common.c:426
+msgid "Encrypt when saving personal infomation"
+msgstr ""
+
+#. for GnuPG
+#: src/prefs_common.c:462
+msgid "Select secret key..."
+msgstr ""
+
+#. for Blowfish
+#: src/prefs_common.c:470
+msgid "Setting Key..."
+msgstr ""
+
+#: src/prefs_common.c:482 src/prefs_common.c:590
+msgid "You need the passphrase of this secret key on next startup."
+msgstr ""
+
+#: src/prefs_common.c:518
+msgid "Use Blowfish"
+msgstr ""
+
+#: src/prefs_common.c:524
+msgid "Use GnuPG"
+msgstr ""
+
+#: src/prefs_common.c:576
+msgid "You need a key on next startup."
+msgstr ""
+
+#: src/prefs_common.c:649
+#, c-format
+msgid "External command (%s will be replaced with file name / URI)"
+msgstr ""
+
+#: src/prefs_common.c:663
+msgid "Web browser"
+msgstr ""
+
+#: src/prefs_id.c:183
+msgid "_Name"
+msgstr ""
+
+#: src/prefs_id.c:191
+msgid "User _ID"
+msgstr ""
+
+#. gtk_editable_set_editable(GTK_EDITABLE(pass_entry), FALSE);
+#: src/prefs_id.c:200 src/prefs_pass.c:171
+msgid "_Password"
+msgstr ""
+
+#: src/prefs_id.c:202
+msgid "_Generate..."
+msgstr ""
+
+#: src/prefs_id.c:210
+msgid "_History..."
+msgstr ""
+
+#: src/prefs_id.c:235
+msgid "_URI"
+msgstr ""
+
+#: src/prefs_id.c:262
+msgid "_Remarks"
+msgstr ""
+
+#: src/prefs_id.c:290
+msgid "New ID infomation"
+msgstr ""
+
+#: src/prefs_id.c:345
+#, c-format
+msgid "Updated %s ago"
+msgstr ""
+
+#: src/prefs_id.c:384
+msgid "Name is not specified."
+msgstr ""
+
+#: src/prefs_id.c:389
+msgid "User ID is not specified."
+msgstr ""
+
+#. dialog
+#: src/prefs_pass.c:148
+msgid "Password Generation"
+msgstr ""
+
+#. generate
+#: src/prefs_pass.c:181
+msgid "_Generate"
+msgstr ""
+
+#. frame
+#: src/prefs_pass.c:186
+msgid "Auto Generation"
+msgstr ""
+
+#. use chars
+#: src/prefs_pass.c:204
+msgid "Using Characters"
+msgstr ""
+
+#: src/prefs_pass.c:223
+msgid "_Upper Case"
+msgstr ""
+
+#: src/prefs_pass.c:226
+msgid "_Lower Case"
+msgstr ""
+
+#: src/prefs_pass.c:229
+msgid "_Numeric"
+msgstr ""
+
+#: src/prefs_pass.c:232
+msgid "Sy_mbol"
+msgstr ""
+
+#: src/prefs_pass.c:247
+msgid "_Avoid ambiguous"
+msgstr ""
+
+#: src/prefs_pass.c:272
+msgid "_Digit number"
+msgstr ""
+
+#. password quality
+#: src/prefs_pass.c:282
+msgid "Password quality"
+msgstr ""
+
+#: src/prefs_pass.c:369
+msgid "Password is not specified."
+msgstr ""
+
+#: src/prefs_pass.c:508
+msgid "Select use characters."
+msgstr ""
+
+#: src/utils.c:346
+msgid "0 seconds"
+msgstr ""
+
+#: src/utils.c:359
+#, c-format
+msgid "%d year(s)"
+msgstr ""
+
+#: src/utils.c:369
+#, c-format
+msgid "%d month(s)"
+msgstr ""
+
+#: src/utils.c:371
+#, c-format
+msgid "%d week(s)"
+msgstr ""
+
+#: src/utils.c:373
+#, c-format
+msgid "%d day(s)"
+msgstr ""
+
+#: src/utils.c:375
+#, c-format
+msgid "%d hour(s)"
+msgstr ""
+
+#: src/utils.c:377
+#, c-format
+msgid "%d minute(s)"
+msgstr ""
+
+#: src/utils.c:379
+#, c-format
+msgid "%d second(s)"
+msgstr ""

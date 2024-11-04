@@ -1,0 +1,116 @@
+2005-09-12
+	* version 0.2.10
+
+	* src/prefs_id.c: fixed push password history button.
+
+2005-09-12
+
+	* version 0.2.9
+
+2005-05-12
+
+	* src/main.c: fixed lock file unlink.
+
+2005-05-09
+
+	* version 0.2.8
+
+2005-05-08
+
+	* src/main.c: prohibit_duplicate_launch(): new.
+	* configure.ac
+	  src/id.c
+	  src/prefs.c
+	  src/utils.[ch]: safe_fopen(), safe_creat(): new.
+	* src/blowfish_crypt.c
+	  src/gnupg_crypt.c: fixed null pointer check.
+	* src/mainwindow.c
+	  src/prefs_id.c: removed debug_print.
+
+2005-05-07
+
+	* src/id.c
+	  src/prefs.[ch]
+	  src/utils.[ch]: get_file_contents(): new.
+
+2005-05-05
+
+	* version 0.2.7
+
+2005-05-05
+
+	* src/prefs_pass.c
+	  src/pass.h
+	  src/Makefile.in
+	  configure.ac
+	  mnid.spec.in: implemented cracklib method.
+
+2005-05-01
+
+	* version 0.2.6
+
+2005-05-01
+
+	* src/prefs_pass.c: restricted password characters.
+
+2005-04-30
+
+	* src/blowfish.h: added definition `BLOWFISH_KEY_MAX'.
+	* src/blowfish_key.c: changed window size.
+
+	* src/pass.c: changed default value of digit.
+	
+	* src/blowfish_input_key.c
+	  src/prefs_pass.c
+	  src/utils.[ch]
+	  po/ja.po: added 'password/key quality meter'.
+	
+	* src/prefs_common.c
+	  src/gnupg_select_key.c: fixed selection of secret keys.
+
+	* src/prefs_id.c
+	  po/ja.po: label with mnemonic.
+
+2005-04-28
+
+	* version 0.2.5
+
+2005-04-28
+
+	* src/mainwindow.[ch]
+	  po/ja.po: added accel key `Copy User ID', `Copy Password'
+	  and `Jump To URI'.
+
+2005-04-26
+
+	* src/mainwindow.[ch]
+	  src/prefs_common.[ch]
+	  po/ja.po: added toolbar & popup menu.
+	* src/menu.[ch]: removed.
+
+2005-04-24
+
+	* version 0.2.4
+
+2005-04-24
+
+	* configure.in: removed.
+	* configure.ac: new.
+
+2005-04-24
+
+	* src/mainwindow.[ch]
+	  src/prefs_common.c
+	  po/ja.po: added statusbar.
+	* src/prefs_common.h
+	  id.h: made the definition of `EncryptType' changes.
+
+2005-04-24
+
+	* src/mainwindow.c
+	  src/prefs_common.[ch]
+	  src/prefs.c
+	  src/prefs_id.c
+	  src/id.c: fixed the issue that ID information file can not read
+	  when configuration of encryption was changed. 
+
